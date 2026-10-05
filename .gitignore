@@ -1,0 +1,15 @@
+.gradle/
+build/
+out/
+*.class
+*.log
+*.litematic
+*.schem
+*.schematic
+*.xlsx
+*.xls
+~$*
+.idea/
+*.iml
+local.properties
+hs_err_pid*

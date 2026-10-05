@@ -1,0 +1,31 @@
+﻿# ZenithProxy MetaTrader Alpha 1.0.11 - test configuration command list
+# These commands are suitable for individual Discord execution.
+
+.metaTrader add whitelistItem minecraft:shulker_shell
+.metaTrader add whitelistItem minecraft:chest
+
+.trader add test pearl_test cleric minecraft:emerald minecraft:ender_pearl
+.trader add test pearl_test inputItem1Chest -2012081 141 -1657317
+.trader add test pearl_test inputItem1Chest -2012081 141 -1657315
+.trader add test pearl_test outputItemChest -2012081 141 -1657312
+.trader add test pearl_test outputItemChest -2012081 141 -1657310
+.trader set test pearl_test outputPerCycleCount 32
+.trader set test pearl_test inputItem1RestockStacks 2
+.trader set test pearl_test outputItemStoreCountThreshold 32
+.trader set test pearl_test on
+
+.trader add test xp_test cleric minecraft:emerald minecraft:experience_bottle
+.trader add test xp_test inputItem1Chest -2012081 141 -1657315
+.trader add test xp_test inputItem1Chest -2012081 141 -1657317
+.trader add test xp_test outputItemChest -2012078 141 -1657312
+.trader add test xp_test outputItemChest -2012078 141 -1657310
+.trader set test xp_test inputItem1RestockStacks 2
+.trader set test xp_test outputPerCycleCount 128
+.trader set test xp_test outputItemStoreCountThreshold 128
+.trader set test xp_test on
+
+# Start and stop separately after configuration:
+# .test metaTraderStandalone on
+# .test metaTraderStandalone off
+# A completed, failed, or cancelled test posts a metatrader-*.txt diagnostic
+# attachment to the configured Discord proxy control channel.

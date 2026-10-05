@@ -1,0 +1,2116 @@
+# ZenithProxy MetaTrader Alpha 1.0.8 - full PirateBay main configuration
+# Configure while stopped. Test trades are configured separately in testConfigList.txt.
+.metaTrader off
+.metaTrader add whitelistItem minecraft:shulker_shell
+.metaTrader add whitelistItem minecraft:chest
+.b allowBreak off
+.b allowPlace off
+.autoeat on
+.antiafk off
+.killaura off
+.autoDisconnect on
+.autoDisconnect health on
+.autoDisconnect health 10
+.autoDisconnect totemPop on
+.autoDisconnect cancelAutoReconnect on
+.trader waitForInteractTimeout 100
+.inventory ncpStrict on
+.click addedEntityReach -0.5
+.click addedBlockReach -0.5
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657294
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657300
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657306
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657315
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657321
+.metaTrader add stackableShulkerOutputChest -2012061 111 -1657327
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657331
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657328
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657321
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657316
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657310
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657304
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657298
+.metaTrader add stackableShulkerOutputChest -2012083 111 -1657294
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657289
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657291
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657294
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657295
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657315
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657324
+.metaTrader add stackableShulkerOutputChest -2012094 111 -1657325
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657328
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657322
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657316
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657304
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657298
+.metaTrader add stackableShulkerOutputChest -2012115 111 -1657292
+.metaTrader set hallReturn -2012088 118 -1657319
+.metaTrader set raidLanding -2011851 63 -1657483
+.metaTrader set flightLaunch -2012057 141 -1657332
+.metaTrader set hallLanding -2012079 141 -1657322
+.metaTrader set flightCruiseY 160
+.metaTrader set flightApproachRadius 50
+.metaTrader set hallBounds -2012060 117 -1657290 -2012116 138 -1657330
+.metaTrader add storeChestBounds minecraft:experience_bottle -2012087 108 -1657321 -2012086 110 -1657330
+.metaTrader add storeChestBounds minecraft:ender_pearl -2012092 108 -1657321 -2012091 110 -1657330
+.metaTrader add storeChestBounds minecraft:glass -2012092 108 -1657299 -2012091 110 -1657308
+.metaTrader add storeChestBounds minecraft:glowstone -2012087 108 -1657299 -2012086 110 -1657308
+.metaTrader add storeChestBounds minecraft:emerald -2012087 108 -1657289 -2012086 110 -1657297
+.metaTrader add storeChestBounds minecraft:golden_carrot -2012092 110 -1657289 -2012091 110 -1657297
+.metaTrader set nonStackableDumpChestBounds -2012092 108 -1657310 -2012091 110 -1657319
+.metaTrader set shulkersToCraftForStackableSort 15
+.metaTrader add whitelistItem minecraft:firework_rocket
+.metaTrader add whitelistItem minecraft:enchanted_golden_apple
+.metaTrader add whitelistItem minecraft:netherite_sword
+.metaTrader add whitelistItem minecraft:totem_of_undying
+.metaTrader add whitelistItem minecraft:diamond_sword
+.metaTrader add whitelistItem minecraft:netherite_axe
+.metaTrader add whitelistItem minecraft:diamond_axe
+.metaTrader add whitelistItem minecraft:netherite_pickaxe
+.metaTrader add whitelistItem minecraft:glass_pane
+.metaTrader add rocketChest -2012087 141 -1657317
+.metaTrader add rocketChest -2011851 63 -1657485
+.metaTrader set ominousBottleChest -2011848 63 -1657485
+.metaTrader add raidFarmTotemOutputChest -2011848 63 -1657483
+.metaTrader add grindstone -2012114 135 -1657329
+.metaTrader add shulkerIngredientsChest -2012094 113 -1657311
+.metaTrader add shulkerIngredientsChest -2012091 109 -1657320
+.metaTrader add leftoverEmptyShulkerChest -2012090 108 -1657320
+.metaTrader add leftoverEmptyShulkerChest -2012092 113 -1657312
+.metaTrader set flightBridgeEnabled true
+.metaTrader set elytraTravelEnabled true
+.metaTrader metaTraderConfigureAnchorEnderChestOld -2012087 123 -1657325
+.trader add librarian_glass_pane librarian minecraft:emerald minecraft:glass
+.trader set librarian_glass_pane outputPerCycleCount 4800
+.trader set librarian_glass_pane maxInput1PerTrade 1
+.trader set librarian_glass_pane inputItem1RestockStacks 6
+.trader set librarian_glass_pane inputItem1RestockCountThreshold 64
+.trader set librarian_glass_pane outputItemStoreCountThreshold 768
+.trader set librarian_glass_pane itemProcessing on
+.trader add cartographer_emerald cartographer minecraft:glass_pane minecraft:emerald
+.trader set cartographer_emerald outputPerCycleCount 12800
+.trader set cartographer_emerald maxInput1PerTrade 1
+.trader set cartographer_emerald inputItem1RestockStacks 6
+.trader set cartographer_emerald inputItem1RestockCountThreshold 64
+.trader set cartographer_emerald outputItemStoreCountThreshold 768
+.trader add cleric_xp cleric minecraft:emerald minecraft:experience_bottle
+.trader set cleric_xp outputPerCycleCount 3540
+.trader set cleric_xp maxInput1PerTrade 1
+.trader set cleric_xp inputItem1RestockStacks 6
+.trader set cleric_xp inputItem1RestockCountThreshold 64
+.trader set cleric_xp outputItemStoreCountThreshold 768
+.trader add cleric_pearl cleric minecraft:emerald minecraft:ender_pearl
+.trader set cleric_pearl outputPerCycleCount 3540
+.trader set cleric_pearl maxInput1PerTrade 1
+.trader set cleric_pearl inputItem1RestockStacks 6
+.trader set cleric_pearl inputItem1RestockCountThreshold 64
+.trader set cleric_pearl outputItemStoreCountThreshold 192
+.trader add farmer_golden_carrot farmer minecraft:emerald minecraft:golden_carrot
+.trader set farmer_golden_carrot outputPerCycleCount 432
+.trader set farmer_golden_carrot maxInput1PerTrade 1
+.trader set farmer_golden_carrot inputItem1RestockStacks 6
+.trader set farmer_golden_carrot inputItem1RestockCountThreshold 64
+.trader set farmer_golden_carrot outputItemStoreCountThreshold 432
+.trader add librarian_glass_block librarian minecraft:emerald minecraft:glass
+.trader set librarian_glass_block outputPerCycleCount 5280
+.trader set librarian_glass_block maxInput1PerTrade 1
+.trader set librarian_glass_block inputItem1RestockStacks 6
+.trader set librarian_glass_block inputItem1RestockCountThreshold 64
+.trader set librarian_glass_block outputItemStoreCountThreshold 768
+.trader add cleric_glowstone_block cleric minecraft:emerald minecraft:glowstone
+.trader set cleric_glowstone_block outputPerCycleCount 2063
+.trader set cleric_glowstone_block maxInput1PerTrade 1
+.trader set cleric_glowstone_block inputItem1RestockStacks 6
+.trader set cleric_glowstone_block inputItem1RestockCountThreshold 64
+.trader set cleric_glowstone_block outputItemStoreCountThreshold 768
+.trader add librarian_book librarian minecraft:emerald minecraft:bookshelf
+.trader set librarian_book outputPerCycleCount 212
+.trader set librarian_book maxInput1PerTrade 1
+.trader set librarian_book inputItem1RestockStacks 3
+.trader set librarian_book inputItem1RestockCountThreshold 64
+.trader set librarian_book outputItemStoreCountThreshold 212
+.trader set librarian_book itemProcessing on
+.trader add toolsmith_shovel toolsmith minecraft:emerald minecraft:diamond_shovel
+.trader set toolsmith_shovel outputPerCycleCount 12
+.trader set toolsmith_shovel maxInput1PerTrade 1
+.trader set toolsmith_shovel inputItem1RestockStacks 1
+.trader set toolsmith_shovel inputItem1RestockCountThreshold 12
+.trader set toolsmith_shovel outputItemStoreCountThreshold 12
+.trader set toolsmith_shovel itemProcessing on
+.trader add toolsmith_pickaxe toolsmith minecraft:emerald minecraft:diamond_pickaxe
+.trader set toolsmith_pickaxe outputPerCycleCount 24
+.trader set toolsmith_pickaxe maxInput1PerTrade 1
+.trader set toolsmith_pickaxe inputItem1RestockStacks 1
+.trader set toolsmith_pickaxe inputItem1RestockCountThreshold 12
+.trader set toolsmith_pickaxe outputItemStoreCountThreshold 24
+.trader set toolsmith_pickaxe itemProcessing on
+.trader add weaponsmith_axe weaponsmith minecraft:emerald minecraft:diamond_axe
+.trader set weaponsmith_axe outputPerCycleCount 12
+.trader set weaponsmith_axe maxInput1PerTrade 1
+.trader set weaponsmith_axe inputItem1RestockStacks 1
+.trader set weaponsmith_axe inputItem1RestockCountThreshold 12
+.trader set weaponsmith_axe outputItemStoreCountThreshold 12
+.trader set weaponsmith_axe itemProcessing on
+.trader add weaponsmith_sword weaponsmith minecraft:emerald minecraft:diamond_sword
+.trader set weaponsmith_sword outputPerCycleCount 12
+.trader set weaponsmith_sword maxInput1PerTrade 1
+.trader set weaponsmith_sword inputItem1RestockStacks 1
+.trader set weaponsmith_sword inputItem1RestockCountThreshold 12
+.trader set weaponsmith_sword outputItemStoreCountThreshold 12
+.trader set weaponsmith_sword itemProcessing on
+.trader add armorer_helmet armorer minecraft:emerald minecraft:diamond_helmet
+.trader set armorer_helmet outputPerCycleCount 12
+.trader set armorer_helmet maxInput1PerTrade 1
+.trader set armorer_helmet inputItem1RestockStacks 1
+.trader set armorer_helmet inputItem1RestockCountThreshold 12
+.trader set armorer_helmet outputItemStoreCountThreshold 12
+.trader set armorer_helmet itemProcessing on
+.trader add armorer_chestplate armorer minecraft:emerald minecraft:diamond_chestplate
+.trader set armorer_chestplate outputPerCycleCount 12
+.trader set armorer_chestplate maxInput1PerTrade 1
+.trader set armorer_chestplate inputItem1RestockStacks 1
+.trader set armorer_chestplate inputItem1RestockCountThreshold 12
+.trader set armorer_chestplate outputItemStoreCountThreshold 12
+.trader set armorer_chestplate itemProcessing on
+.trader add armorer_leggings armorer minecraft:emerald minecraft:diamond_leggings
+.trader set armorer_leggings outputPerCycleCount 12
+.trader set armorer_leggings maxInput1PerTrade 1
+.trader set armorer_leggings inputItem1RestockStacks 1
+.trader set armorer_leggings inputItem1RestockCountThreshold 12
+.trader set armorer_leggings outputItemStoreCountThreshold 12
+.trader set armorer_leggings itemProcessing on
+.trader add librarian_unbreaking_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_unbreaking_3 outputPerCycleCount 120
+.trader set librarian_unbreaking_3 postTradeStore to_restock
+.trader set librarian_unbreaking_3 outputEnchants add unbreaking 3
+.trader set librarian_unbreaking_3 maxInput1PerTrade 1
+.trader set librarian_unbreaking_3 maxInput2PerTrade 1
+.trader set librarian_unbreaking_3 inputItem1RestockStacks 2
+.trader set librarian_unbreaking_3 inputItem1RestockCountThreshold 12
+.trader set librarian_unbreaking_3 inputItem2RestockStacks 2
+.trader set librarian_unbreaking_3 inputItem2RestockCountThreshold 12
+.trader set librarian_unbreaking_3 outputItemStoreCountThreshold 24
+.trader add librarian_mending librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_mending outputPerCycleCount 120
+.trader set librarian_mending postTradeStore to_restock
+.trader set librarian_mending outputEnchants add mending 1
+.trader set librarian_mending maxInput1PerTrade 1
+.trader set librarian_mending maxInput2PerTrade 1
+.trader set librarian_mending inputItem1RestockStacks 2
+.trader set librarian_mending inputItem1RestockCountThreshold 12
+.trader set librarian_mending inputItem2RestockStacks 2
+.trader set librarian_mending inputItem2RestockCountThreshold 12
+.trader set librarian_mending outputItemStoreCountThreshold 24
+.trader add librarian_curse_of_vanishing librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_curse_of_vanishing outputPerCycleCount 120
+.trader set librarian_curse_of_vanishing postTradeStore to_restock
+.trader set librarian_curse_of_vanishing outputEnchants add vanishing_curse 1
+.trader set librarian_curse_of_vanishing maxInput1PerTrade 1
+.trader set librarian_curse_of_vanishing maxInput2PerTrade 1
+.trader set librarian_curse_of_vanishing inputItem1RestockStacks 2
+.trader set librarian_curse_of_vanishing inputItem1RestockCountThreshold 12
+.trader set librarian_curse_of_vanishing inputItem2RestockStacks 2
+.trader set librarian_curse_of_vanishing inputItem2RestockCountThreshold 12
+.trader set librarian_curse_of_vanishing outputItemStoreCountThreshold 24
+.trader add librarian_sharpness_5 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_sharpness_5 outputPerCycleCount 12
+.trader set librarian_sharpness_5 postTradeStore to_restock
+.trader set librarian_sharpness_5 outputEnchants add sharpness 5
+.trader set librarian_sharpness_5 maxInput1PerTrade 1
+.trader set librarian_sharpness_5 maxInput2PerTrade 1
+.trader set librarian_sharpness_5 inputItem1RestockStacks 1
+.trader set librarian_sharpness_5 inputItem1RestockCountThreshold 12
+.trader set librarian_sharpness_5 inputItem2RestockStacks 1
+.trader set librarian_sharpness_5 inputItem2RestockCountThreshold 12
+.trader set librarian_sharpness_5 outputItemStoreCountThreshold 12
+.trader add librarian_looting_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_looting_3 outputPerCycleCount 12
+.trader set librarian_looting_3 postTradeStore to_restock
+.trader set librarian_looting_3 outputEnchants add looting 3
+.trader set librarian_looting_3 maxInput1PerTrade 1
+.trader set librarian_looting_3 maxInput2PerTrade 1
+.trader set librarian_looting_3 inputItem1RestockStacks 1
+.trader set librarian_looting_3 inputItem1RestockCountThreshold 12
+.trader set librarian_looting_3 inputItem2RestockStacks 1
+.trader set librarian_looting_3 inputItem2RestockCountThreshold 12
+.trader set librarian_looting_3 outputItemStoreCountThreshold 12
+.trader add librarian_sweeping_edge_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_sweeping_edge_3 outputPerCycleCount 12
+.trader set librarian_sweeping_edge_3 postTradeStore to_restock
+.trader set librarian_sweeping_edge_3 outputEnchants add sweeping_edge 3
+.trader set librarian_sweeping_edge_3 maxInput1PerTrade 1
+.trader set librarian_sweeping_edge_3 maxInput2PerTrade 1
+.trader set librarian_sweeping_edge_3 inputItem1RestockStacks 1
+.trader set librarian_sweeping_edge_3 inputItem1RestockCountThreshold 12
+.trader set librarian_sweeping_edge_3 inputItem2RestockStacks 1
+.trader set librarian_sweeping_edge_3 inputItem2RestockCountThreshold 12
+.trader set librarian_sweeping_edge_3 outputItemStoreCountThreshold 12
+.trader add librarian_fire_aspect_2 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_fire_aspect_2 outputPerCycleCount 24
+.trader set librarian_fire_aspect_2 postTradeStore to_restock
+.trader set librarian_fire_aspect_2 outputEnchants add fire_aspect 2
+.trader set librarian_fire_aspect_2 maxInput1PerTrade 1
+.trader set librarian_fire_aspect_2 maxInput2PerTrade 1
+.trader set librarian_fire_aspect_2 inputItem1RestockStacks 1
+.trader set librarian_fire_aspect_2 inputItem1RestockCountThreshold 12
+.trader set librarian_fire_aspect_2 inputItem2RestockStacks 1
+.trader set librarian_fire_aspect_2 inputItem2RestockCountThreshold 12
+.trader set librarian_fire_aspect_2 outputItemStoreCountThreshold 24
+.trader add librarian_efficiency_5 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_efficiency_5 outputPerCycleCount 48
+.trader set librarian_efficiency_5 postTradeStore to_restock
+.trader set librarian_efficiency_5 outputEnchants add efficiency 5
+.trader set librarian_efficiency_5 maxInput1PerTrade 1
+.trader set librarian_efficiency_5 maxInput2PerTrade 1
+.trader set librarian_efficiency_5 inputItem1RestockStacks 1
+.trader set librarian_efficiency_5 inputItem1RestockCountThreshold 12
+.trader set librarian_efficiency_5 inputItem2RestockStacks 1
+.trader set librarian_efficiency_5 inputItem2RestockCountThreshold 12
+.trader set librarian_efficiency_5 outputItemStoreCountThreshold 24
+.trader add librarian_silk_touch librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_silk_touch outputPerCycleCount 36
+.trader set librarian_silk_touch postTradeStore to_restock
+.trader set librarian_silk_touch outputEnchants add silk_touch 1
+.trader set librarian_silk_touch maxInput1PerTrade 1
+.trader set librarian_silk_touch maxInput2PerTrade 1
+.trader set librarian_silk_touch inputItem1RestockStacks 1
+.trader set librarian_silk_touch inputItem1RestockCountThreshold 12
+.trader set librarian_silk_touch inputItem2RestockStacks 1
+.trader set librarian_silk_touch inputItem2RestockCountThreshold 12
+.trader set librarian_silk_touch outputItemStoreCountThreshold 24
+.trader add librarian_fortune_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_fortune_3 outputPerCycleCount 36
+.trader set librarian_fortune_3 postTradeStore to_restock
+.trader set librarian_fortune_3 outputEnchants add fortune 3
+.trader set librarian_fortune_3 maxInput1PerTrade 1
+.trader set librarian_fortune_3 maxInput2PerTrade 1
+.trader set librarian_fortune_3 inputItem1RestockStacks 1
+.trader set librarian_fortune_3 inputItem1RestockCountThreshold 12
+.trader set librarian_fortune_3 inputItem2RestockStacks 1
+.trader set librarian_fortune_3 inputItem2RestockCountThreshold 12
+.trader set librarian_fortune_3 outputItemStoreCountThreshold 24
+.trader add librarian_protection_4 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_protection_4 outputPerCycleCount 24
+.trader set librarian_protection_4 postTradeStore to_restock
+.trader set librarian_protection_4 outputEnchants add protection 4
+.trader set librarian_protection_4 maxInput1PerTrade 1
+.trader set librarian_protection_4 maxInput2PerTrade 1
+.trader set librarian_protection_4 inputItem1RestockStacks 1
+.trader set librarian_protection_4 inputItem1RestockCountThreshold 12
+.trader set librarian_protection_4 inputItem2RestockStacks 1
+.trader set librarian_protection_4 inputItem2RestockCountThreshold 12
+.trader set librarian_protection_4 outputItemStoreCountThreshold 24
+.trader add librarian_blast_protection_4 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_blast_protection_4 outputPerCycleCount 24
+.trader set librarian_blast_protection_4 postTradeStore to_restock
+.trader set librarian_blast_protection_4 outputEnchants add blast_protection 4
+.trader set librarian_blast_protection_4 maxInput1PerTrade 1
+.trader set librarian_blast_protection_4 maxInput2PerTrade 1
+.trader set librarian_blast_protection_4 inputItem1RestockStacks 1
+.trader set librarian_blast_protection_4 inputItem1RestockCountThreshold 12
+.trader set librarian_blast_protection_4 inputItem2RestockStacks 1
+.trader set librarian_blast_protection_4 inputItem2RestockCountThreshold 12
+.trader set librarian_blast_protection_4 outputItemStoreCountThreshold 24
+.trader add librarian_aqua_affinity librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_aqua_affinity outputPerCycleCount 12
+.trader set librarian_aqua_affinity postTradeStore to_restock
+.trader set librarian_aqua_affinity outputEnchants add aqua_affinity 1
+.trader set librarian_aqua_affinity maxInput1PerTrade 1
+.trader set librarian_aqua_affinity maxInput2PerTrade 1
+.trader set librarian_aqua_affinity inputItem1RestockStacks 1
+.trader set librarian_aqua_affinity inputItem1RestockCountThreshold 12
+.trader set librarian_aqua_affinity inputItem2RestockStacks 1
+.trader set librarian_aqua_affinity inputItem2RestockCountThreshold 12
+.trader set librarian_aqua_affinity outputItemStoreCountThreshold 12
+.trader add librarian_respiration_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_respiration_3 outputPerCycleCount 12
+.trader set librarian_respiration_3 postTradeStore to_restock
+.trader set librarian_respiration_3 outputEnchants add respiration 3
+.trader set librarian_respiration_3 maxInput1PerTrade 1
+.trader set librarian_respiration_3 maxInput2PerTrade 1
+.trader set librarian_respiration_3 inputItem1RestockStacks 1
+.trader set librarian_respiration_3 inputItem1RestockCountThreshold 12
+.trader set librarian_respiration_3 inputItem2RestockStacks 1
+.trader set librarian_respiration_3 inputItem2RestockCountThreshold 12
+.trader set librarian_respiration_3 outputItemStoreCountThreshold 12
+.trader add librarian_depth_strider_3 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_depth_strider_3 outputPerCycleCount 12
+.trader set librarian_depth_strider_3 postTradeStore to_restock
+.trader set librarian_depth_strider_3 outputEnchants add depth_strider 3
+.trader set librarian_depth_strider_3 maxInput1PerTrade 1
+.trader set librarian_depth_strider_3 maxInput2PerTrade 1
+.trader set librarian_depth_strider_3 inputItem1RestockStacks 1
+.trader set librarian_depth_strider_3 inputItem1RestockCountThreshold 12
+.trader set librarian_depth_strider_3 inputItem2RestockStacks 1
+.trader set librarian_depth_strider_3 inputItem2RestockCountThreshold 12
+.trader set librarian_depth_strider_3 outputItemStoreCountThreshold 12
+.trader add librarian_feather_falling_4 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_feather_falling_4 outputPerCycleCount 12
+.trader set librarian_feather_falling_4 postTradeStore to_restock
+.trader set librarian_feather_falling_4 outputEnchants add feather_falling 4
+.trader set librarian_feather_falling_4 maxInput1PerTrade 1
+.trader set librarian_feather_falling_4 maxInput2PerTrade 1
+.trader set librarian_feather_falling_4 inputItem1RestockStacks 1
+.trader set librarian_feather_falling_4 inputItem1RestockCountThreshold 12
+.trader set librarian_feather_falling_4 inputItem2RestockStacks 1
+.trader set librarian_feather_falling_4 inputItem2RestockCountThreshold 12
+.trader set librarian_feather_falling_4 outputItemStoreCountThreshold 12
+.trader add librarian_density_5 librarian minecraft:emerald minecraft:book minecraft:enchanted_book -2012090 137 -1657325 -2012089 137 -1657325 -2012118 134 -1657310
+.trader set librarian_density_5 outputPerCycleCount 12
+.trader set librarian_density_5 postTradeStore to_restock
+.trader set librarian_density_5 outputEnchants add density 5
+.trader set librarian_density_5 maxInput1PerTrade 1
+.trader set librarian_density_5 maxInput2PerTrade 1
+.trader set librarian_density_5 inputItem1RestockStacks 1
+.trader set librarian_density_5 inputItem1RestockCountThreshold 12
+.trader set librarian_density_5 inputItem2RestockStacks 1
+.trader set librarian_density_5 inputItem2RestockCountThreshold 12
+.trader set librarian_density_5 outputItemStoreCountThreshold 12
+.trader add cartographer_emerald inputItem1Chest -2012088 137 -1657325
+.trader add cartographer_emerald inputItem1Chest -2012088 137 -1657319
+.trader add cartographer_emerald inputItem1Chest -2012088 137 -1657313
+.trader add cartographer_emerald inputItem1Chest -2012088 137 -1657307
+.trader add cartographer_emerald inputItem1Chest -2012088 137 -1657301
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657295
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657325
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657319
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657313
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657307
+.trader add cartographer_emerald inputItem1Chest -2012088 131 -1657301
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657295
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657325
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657319
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657313
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657307
+.trader add cartographer_emerald inputItem1Chest -2012088 125 -1657301
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657325
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657319
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657313
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657307
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657301
+.trader add cartographer_emerald inputItem1Chest -2012088 119 -1657295
+.trader add librarian_glass_pane outputItemChest -2012088 134 -1657325
+.trader add librarian_glass_pane outputItemChest -2012088 134 -1657319
+.trader add librarian_glass_pane outputItemChest -2012088 134 -1657313
+.trader add librarian_glass_pane outputItemChest -2012088 134 -1657307
+.trader add librarian_glass_pane outputItemChest -2012088 134 -1657301
+.trader add librarian_glass_pane outputItemChest -2012088 127 -1657295
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657325
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657319
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657313
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657307
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657301
+.trader add librarian_glass_pane outputItemChest -2012088 128 -1657295
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657325
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657319
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657313
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657307
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657301
+.trader add librarian_glass_pane outputItemChest -2012088 122 -1657295
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657325
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657319
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657313
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657307
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657301
+.trader add librarian_glass_pane outputItemChest -2012088 116 -1657295
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_unbreaking_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_mending inputItem2Chest -2012089 137 -1657325
+.trader add librarian_mending inputItem2Chest -2012089 137 -1657319
+.trader add librarian_mending inputItem2Chest -2012089 137 -1657313
+.trader add librarian_mending inputItem2Chest -2012089 137 -1657307
+.trader add librarian_mending inputItem2Chest -2012089 137 -1657301
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657295
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657325
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657319
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657313
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657307
+.trader add librarian_mending inputItem2Chest -2012089 131 -1657301
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657295
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657325
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657319
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657313
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657307
+.trader add librarian_mending inputItem2Chest -2012089 125 -1657301
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657325
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657319
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657313
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657307
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657301
+.trader add librarian_mending inputItem2Chest -2012089 119 -1657295
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 137 -1657325
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 137 -1657319
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 137 -1657313
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 137 -1657307
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 137 -1657301
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657295
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657325
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657319
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657313
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657307
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 131 -1657301
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657295
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657325
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657319
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657313
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657307
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 125 -1657301
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657325
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657319
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657313
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657307
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657301
+.trader add librarian_curse_of_vanishing inputItem2Chest -2012089 119 -1657295
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_sharpness_5 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_looting_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_looting_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_looting_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_looting_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_looting_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_looting_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_looting_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_looting_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_sweeping_edge_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_fire_aspect_2 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_efficiency_5 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_silk_touch inputItem2Chest -2012089 137 -1657325
+.trader add librarian_silk_touch inputItem2Chest -2012089 137 -1657319
+.trader add librarian_silk_touch inputItem2Chest -2012089 137 -1657313
+.trader add librarian_silk_touch inputItem2Chest -2012089 137 -1657307
+.trader add librarian_silk_touch inputItem2Chest -2012089 137 -1657301
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657295
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657325
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657319
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657313
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657307
+.trader add librarian_silk_touch inputItem2Chest -2012089 131 -1657301
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657295
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657325
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657319
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657313
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657307
+.trader add librarian_silk_touch inputItem2Chest -2012089 125 -1657301
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657325
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657319
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657313
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657307
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657301
+.trader add librarian_silk_touch inputItem2Chest -2012089 119 -1657295
+.trader add librarian_fortune_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_fortune_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_fortune_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_fortune_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_fortune_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_fortune_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_fortune_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_fortune_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_protection_4 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_protection_4 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_protection_4 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_protection_4 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_protection_4 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_protection_4 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_protection_4 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_protection_4 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_blast_protection_4 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 137 -1657325
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 137 -1657319
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 137 -1657313
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 137 -1657307
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 137 -1657301
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657295
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657325
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657319
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657313
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657307
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 131 -1657301
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657295
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657325
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657319
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657313
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657307
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 125 -1657301
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657325
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657319
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657313
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657307
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657301
+.trader add librarian_aqua_affinity inputItem2Chest -2012089 119 -1657295
+.trader add librarian_respiration_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_respiration_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_respiration_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_respiration_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_respiration_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_respiration_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_respiration_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_respiration_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_depth_strider_3 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_feather_falling_4 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_density_5 inputItem2Chest -2012089 137 -1657325
+.trader add librarian_density_5 inputItem2Chest -2012089 137 -1657319
+.trader add librarian_density_5 inputItem2Chest -2012089 137 -1657313
+.trader add librarian_density_5 inputItem2Chest -2012089 137 -1657307
+.trader add librarian_density_5 inputItem2Chest -2012089 137 -1657301
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657295
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657325
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657319
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657313
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657307
+.trader add librarian_density_5 inputItem2Chest -2012089 131 -1657301
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657295
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657325
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657319
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657313
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657307
+.trader add librarian_density_5 inputItem2Chest -2012089 125 -1657301
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657325
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657319
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657313
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657307
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657301
+.trader add librarian_density_5 inputItem2Chest -2012089 119 -1657295
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_unbreaking_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_mending inputItem1Chest -2012090 137 -1657325
+.trader add librarian_mending inputItem1Chest -2012090 137 -1657319
+.trader add librarian_mending inputItem1Chest -2012090 137 -1657313
+.trader add librarian_mending inputItem1Chest -2012090 137 -1657307
+.trader add librarian_mending inputItem1Chest -2012090 137 -1657301
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657295
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657325
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657319
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657313
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657307
+.trader add librarian_mending inputItem1Chest -2012090 131 -1657301
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657295
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657325
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657319
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657313
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657307
+.trader add librarian_mending inputItem1Chest -2012090 125 -1657301
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657325
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657319
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657313
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657307
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657301
+.trader add librarian_mending inputItem1Chest -2012090 119 -1657295
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 137 -1657325
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 137 -1657319
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 137 -1657313
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 137 -1657307
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 137 -1657301
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657295
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657325
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657319
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657313
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657307
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 131 -1657301
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657295
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657325
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657319
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657313
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657307
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 125 -1657301
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657325
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657319
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657313
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657307
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657301
+.trader add librarian_curse_of_vanishing inputItem1Chest -2012090 119 -1657295
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_sharpness_5 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_looting_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_looting_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_looting_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_looting_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_looting_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_looting_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_looting_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_looting_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_sweeping_edge_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_fire_aspect_2 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_efficiency_5 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_silk_touch inputItem1Chest -2012090 137 -1657325
+.trader add librarian_silk_touch inputItem1Chest -2012090 137 -1657319
+.trader add librarian_silk_touch inputItem1Chest -2012090 137 -1657313
+.trader add librarian_silk_touch inputItem1Chest -2012090 137 -1657307
+.trader add librarian_silk_touch inputItem1Chest -2012090 137 -1657301
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657295
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657325
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657319
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657313
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657307
+.trader add librarian_silk_touch inputItem1Chest -2012090 131 -1657301
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657295
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657325
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657319
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657313
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657307
+.trader add librarian_silk_touch inputItem1Chest -2012090 125 -1657301
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657325
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657319
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657313
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657307
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657301
+.trader add librarian_silk_touch inputItem1Chest -2012090 119 -1657295
+.trader add librarian_fortune_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_fortune_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_fortune_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_fortune_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_fortune_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_fortune_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_fortune_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_fortune_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_protection_4 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_protection_4 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_protection_4 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_protection_4 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_protection_4 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_protection_4 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_protection_4 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_protection_4 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_blast_protection_4 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 137 -1657325
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 137 -1657319
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 137 -1657313
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 137 -1657307
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 137 -1657301
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657295
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657325
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657319
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657313
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657307
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 131 -1657301
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657295
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657325
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657319
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657313
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657307
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 125 -1657301
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657325
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657319
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657313
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657307
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657301
+.trader add librarian_aqua_affinity inputItem1Chest -2012090 119 -1657295
+.trader add librarian_respiration_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_respiration_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_respiration_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_respiration_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_respiration_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_respiration_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_respiration_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_respiration_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_depth_strider_3 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_feather_falling_4 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_density_5 inputItem1Chest -2012090 137 -1657325
+.trader add librarian_density_5 inputItem1Chest -2012090 137 -1657319
+.trader add librarian_density_5 inputItem1Chest -2012090 137 -1657313
+.trader add librarian_density_5 inputItem1Chest -2012090 137 -1657307
+.trader add librarian_density_5 inputItem1Chest -2012090 137 -1657301
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657295
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657325
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657319
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657313
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657307
+.trader add librarian_density_5 inputItem1Chest -2012090 131 -1657301
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657295
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657325
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657319
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657313
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657307
+.trader add librarian_density_5 inputItem1Chest -2012090 125 -1657301
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657325
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657319
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657313
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657307
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657301
+.trader add librarian_density_5 inputItem1Chest -2012090 119 -1657295
+.trader add librarian_glass_pane inputItem1Chest -2012090 137 -1657325
+.trader add librarian_glass_pane inputItem1Chest -2012090 137 -1657319
+.trader add librarian_glass_pane inputItem1Chest -2012090 137 -1657313
+.trader add librarian_glass_pane inputItem1Chest -2012090 137 -1657307
+.trader add librarian_glass_pane inputItem1Chest -2012090 137 -1657301
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657295
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657325
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657319
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657313
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657307
+.trader add librarian_glass_pane inputItem1Chest -2012090 131 -1657301
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657295
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657325
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657319
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657313
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657307
+.trader add librarian_glass_pane inputItem1Chest -2012090 125 -1657301
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657325
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657319
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657313
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657307
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657301
+.trader add librarian_glass_pane inputItem1Chest -2012090 119 -1657295
+.trader add cleric_xp inputItem1Chest -2012090 137 -1657325
+.trader add cleric_xp inputItem1Chest -2012090 137 -1657319
+.trader add cleric_xp inputItem1Chest -2012090 137 -1657313
+.trader add cleric_xp inputItem1Chest -2012090 137 -1657307
+.trader add cleric_xp inputItem1Chest -2012090 137 -1657301
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657295
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657325
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657319
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657313
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657307
+.trader add cleric_xp inputItem1Chest -2012090 131 -1657301
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657295
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657325
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657319
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657313
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657307
+.trader add cleric_xp inputItem1Chest -2012090 125 -1657301
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657325
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657319
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657313
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657307
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657301
+.trader add cleric_xp inputItem1Chest -2012090 119 -1657295
+.trader add cleric_pearl inputItem1Chest -2012090 137 -1657325
+.trader add cleric_pearl inputItem1Chest -2012090 137 -1657319
+.trader add cleric_pearl inputItem1Chest -2012090 137 -1657313
+.trader add cleric_pearl inputItem1Chest -2012090 137 -1657307
+.trader add cleric_pearl inputItem1Chest -2012090 137 -1657301
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657295
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657325
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657319
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657313
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657307
+.trader add cleric_pearl inputItem1Chest -2012090 131 -1657301
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657295
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657325
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657319
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657313
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657307
+.trader add cleric_pearl inputItem1Chest -2012090 125 -1657301
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657325
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657319
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657313
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657307
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657301
+.trader add cleric_pearl inputItem1Chest -2012090 119 -1657295
+.trader add farmer_golden_carrot inputItem1Chest -2012090 137 -1657325
+.trader add farmer_golden_carrot inputItem1Chest -2012090 137 -1657319
+.trader add farmer_golden_carrot inputItem1Chest -2012090 137 -1657313
+.trader add farmer_golden_carrot inputItem1Chest -2012090 137 -1657307
+.trader add farmer_golden_carrot inputItem1Chest -2012090 137 -1657301
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657295
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657325
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657319
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657313
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657307
+.trader add farmer_golden_carrot inputItem1Chest -2012090 131 -1657301
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657295
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657325
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657319
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657313
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657307
+.trader add farmer_golden_carrot inputItem1Chest -2012090 125 -1657301
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657325
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657319
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657313
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657307
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657301
+.trader add farmer_golden_carrot inputItem1Chest -2012090 119 -1657295
+.trader add librarian_glass_block inputItem1Chest -2012090 137 -1657325
+.trader add librarian_glass_block inputItem1Chest -2012090 137 -1657319
+.trader add librarian_glass_block inputItem1Chest -2012090 137 -1657313
+.trader add librarian_glass_block inputItem1Chest -2012090 137 -1657307
+.trader add librarian_glass_block inputItem1Chest -2012090 137 -1657301
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657295
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657325
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657319
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657313
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657307
+.trader add librarian_glass_block inputItem1Chest -2012090 131 -1657301
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657295
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657325
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657319
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657313
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657307
+.trader add librarian_glass_block inputItem1Chest -2012090 125 -1657301
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657325
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657319
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657313
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657307
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657301
+.trader add librarian_glass_block inputItem1Chest -2012090 119 -1657295
+.trader add cleric_glowstone_block inputItem1Chest -2012090 137 -1657325
+.trader add cleric_glowstone_block inputItem1Chest -2012090 137 -1657319
+.trader add cleric_glowstone_block inputItem1Chest -2012090 137 -1657313
+.trader add cleric_glowstone_block inputItem1Chest -2012090 137 -1657307
+.trader add cleric_glowstone_block inputItem1Chest -2012090 137 -1657301
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657295
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657325
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657319
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657313
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657307
+.trader add cleric_glowstone_block inputItem1Chest -2012090 131 -1657301
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657295
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657325
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657319
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657313
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657307
+.trader add cleric_glowstone_block inputItem1Chest -2012090 125 -1657301
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657325
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657319
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657313
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657307
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657301
+.trader add cleric_glowstone_block inputItem1Chest -2012090 119 -1657295
+.trader add librarian_book inputItem1Chest -2012090 137 -1657325
+.trader add librarian_book inputItem1Chest -2012090 137 -1657319
+.trader add librarian_book inputItem1Chest -2012090 137 -1657313
+.trader add librarian_book inputItem1Chest -2012090 137 -1657307
+.trader add librarian_book inputItem1Chest -2012090 137 -1657301
+.trader add librarian_book inputItem1Chest -2012090 131 -1657295
+.trader add librarian_book inputItem1Chest -2012090 131 -1657325
+.trader add librarian_book inputItem1Chest -2012090 131 -1657319
+.trader add librarian_book inputItem1Chest -2012090 131 -1657313
+.trader add librarian_book inputItem1Chest -2012090 131 -1657307
+.trader add librarian_book inputItem1Chest -2012090 131 -1657301
+.trader add librarian_book inputItem1Chest -2012090 125 -1657295
+.trader add librarian_book inputItem1Chest -2012090 125 -1657325
+.trader add librarian_book inputItem1Chest -2012090 125 -1657319
+.trader add librarian_book inputItem1Chest -2012090 125 -1657313
+.trader add librarian_book inputItem1Chest -2012090 125 -1657307
+.trader add librarian_book inputItem1Chest -2012090 125 -1657301
+.trader add librarian_book inputItem1Chest -2012090 119 -1657325
+.trader add librarian_book inputItem1Chest -2012090 119 -1657319
+.trader add librarian_book inputItem1Chest -2012090 119 -1657313
+.trader add librarian_book inputItem1Chest -2012090 119 -1657307
+.trader add librarian_book inputItem1Chest -2012090 119 -1657301
+.trader add librarian_book inputItem1Chest -2012090 119 -1657295
+.trader add toolsmith_shovel inputItem1Chest -2012090 137 -1657325
+.trader add toolsmith_shovel inputItem1Chest -2012090 137 -1657319
+.trader add toolsmith_shovel inputItem1Chest -2012090 137 -1657313
+.trader add toolsmith_shovel inputItem1Chest -2012090 137 -1657307
+.trader add toolsmith_shovel inputItem1Chest -2012090 137 -1657301
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657295
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657325
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657319
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657313
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657307
+.trader add toolsmith_shovel inputItem1Chest -2012090 131 -1657301
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657295
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657325
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657319
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657313
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657307
+.trader add toolsmith_shovel inputItem1Chest -2012090 125 -1657301
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657325
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657319
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657313
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657307
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657301
+.trader add toolsmith_shovel inputItem1Chest -2012090 119 -1657295
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 137 -1657325
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 137 -1657319
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 137 -1657313
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 137 -1657307
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 137 -1657301
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657295
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657325
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657319
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657313
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657307
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 131 -1657301
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657295
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657325
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657319
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657313
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657307
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 125 -1657301
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657325
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657319
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657313
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657307
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657301
+.trader add toolsmith_pickaxe inputItem1Chest -2012090 119 -1657295
+.trader add weaponsmith_axe inputItem1Chest -2012090 137 -1657325
+.trader add weaponsmith_axe inputItem1Chest -2012090 137 -1657319
+.trader add weaponsmith_axe inputItem1Chest -2012090 137 -1657313
+.trader add weaponsmith_axe inputItem1Chest -2012090 137 -1657307
+.trader add weaponsmith_axe inputItem1Chest -2012090 137 -1657301
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657295
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657325
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657319
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657313
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657307
+.trader add weaponsmith_axe inputItem1Chest -2012090 131 -1657301
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657295
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657325
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657319
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657313
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657307
+.trader add weaponsmith_axe inputItem1Chest -2012090 125 -1657301
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657325
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657319
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657313
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657307
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657301
+.trader add weaponsmith_axe inputItem1Chest -2012090 119 -1657295
+.trader add weaponsmith_sword inputItem1Chest -2012090 137 -1657325
+.trader add weaponsmith_sword inputItem1Chest -2012090 137 -1657319
+.trader add weaponsmith_sword inputItem1Chest -2012090 137 -1657313
+.trader add weaponsmith_sword inputItem1Chest -2012090 137 -1657307
+.trader add weaponsmith_sword inputItem1Chest -2012090 137 -1657301
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657295
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657325
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657319
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657313
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657307
+.trader add weaponsmith_sword inputItem1Chest -2012090 131 -1657301
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657295
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657325
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657319
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657313
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657307
+.trader add weaponsmith_sword inputItem1Chest -2012090 125 -1657301
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657325
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657319
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657313
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657307
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657301
+.trader add weaponsmith_sword inputItem1Chest -2012090 119 -1657295
+.trader add armorer_helmet inputItem1Chest -2012090 137 -1657325
+.trader add armorer_helmet inputItem1Chest -2012090 137 -1657319
+.trader add armorer_helmet inputItem1Chest -2012090 137 -1657313
+.trader add armorer_helmet inputItem1Chest -2012090 137 -1657307
+.trader add armorer_helmet inputItem1Chest -2012090 137 -1657301
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657295
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657325
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657319
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657313
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657307
+.trader add armorer_helmet inputItem1Chest -2012090 131 -1657301
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657295
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657325
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657319
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657313
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657307
+.trader add armorer_helmet inputItem1Chest -2012090 125 -1657301
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657325
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657319
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657313
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657307
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657301
+.trader add armorer_helmet inputItem1Chest -2012090 119 -1657295
+.trader add armorer_chestplate inputItem1Chest -2012090 137 -1657325
+.trader add armorer_chestplate inputItem1Chest -2012090 137 -1657319
+.trader add armorer_chestplate inputItem1Chest -2012090 137 -1657313
+.trader add armorer_chestplate inputItem1Chest -2012090 137 -1657307
+.trader add armorer_chestplate inputItem1Chest -2012090 137 -1657301
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657295
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657325
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657319
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657313
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657307
+.trader add armorer_chestplate inputItem1Chest -2012090 131 -1657301
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657295
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657325
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657319
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657313
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657307
+.trader add armorer_chestplate inputItem1Chest -2012090 125 -1657301
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657325
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657319
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657313
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657307
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657301
+.trader add armorer_chestplate inputItem1Chest -2012090 119 -1657295
+.trader add armorer_leggings inputItem1Chest -2012090 137 -1657325
+.trader add armorer_leggings inputItem1Chest -2012090 137 -1657319
+.trader add armorer_leggings inputItem1Chest -2012090 137 -1657313
+.trader add armorer_leggings inputItem1Chest -2012090 137 -1657307
+.trader add armorer_leggings inputItem1Chest -2012090 137 -1657301
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657295
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657325
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657319
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657313
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657307
+.trader add armorer_leggings inputItem1Chest -2012090 131 -1657301
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657295
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657325
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657319
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657313
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657307
+.trader add armorer_leggings inputItem1Chest -2012090 125 -1657301
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657325
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657319
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657313
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657307
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657301
+.trader add armorer_leggings inputItem1Chest -2012090 119 -1657295
+.trader add cartographer_emerald outputItemChest -2012090 134 -1657325
+.trader add cartographer_emerald outputItemChest -2012090 134 -1657319
+.trader add cartographer_emerald outputItemChest -2012090 134 -1657313
+.trader add cartographer_emerald outputItemChest -2012090 134 -1657307
+.trader add cartographer_emerald outputItemChest -2012090 134 -1657301
+.trader add cartographer_emerald outputItemChest -2012090 127 -1657295
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657325
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657319
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657313
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657307
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657301
+.trader add cartographer_emerald outputItemChest -2012090 128 -1657295
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657325
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657319
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657313
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657307
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657301
+.trader add cartographer_emerald outputItemChest -2012090 122 -1657295
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657325
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657319
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657313
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657307
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657301
+.trader add cartographer_emerald outputItemChest -2012090 116 -1657295
+.trader add cleric_glowstone_block outputItemChest -2012086 135 -1657331
+.trader add cleric_glowstone_block outputItemChest -2012091 135 -1657325
+.trader add cleric_glowstone_block outputItemChest -2012019 135 -1657314
+.trader add cleric_glowstone_block outputItemChest -2012086 135 -1657308
+.trader add cleric_glowstone_block outputItemChest -2012086 135 -1657296
+.trader add cleric_glowstone_block outputItemChest -2012058 134 -1657322
+.trader add cleric_glowstone_block outputItemChest -2012058 134 -1657292
+.trader add cleric_glowstone_block outputItemChest -2012118 134 -1657298
+.trader add cleric_glowstone_block outputItemChest -2012118 134 -1657328
+.trader add cleric_glowstone_block outputItemChest -2012086 129 -1657331
+.trader add cleric_glowstone_block outputItemChest -2012091 129 -1657325
+.trader add cleric_glowstone_block outputItemChest -2012019 129 -1657314
+.trader add cleric_glowstone_block outputItemChest -2012086 129 -1657308
+.trader add cleric_glowstone_block outputItemChest -2012086 129 -1657296
+.trader add cleric_glowstone_block outputItemChest -2012058 129 -1657322
+.trader add cleric_glowstone_block outputItemChest -2012058 129 -1657292
+.trader add cleric_glowstone_block outputItemChest -2012118 129 -1657298
+.trader add cleric_glowstone_block outputItemChest -2012118 129 -1657328
+.trader add cleric_glowstone_block outputItemChest -2012086 123 -1657331
+.trader add cleric_glowstone_block outputItemChest -2012091 123 -1657325
+.trader add cleric_glowstone_block outputItemChest -2012019 123 -1657314
+.trader add cleric_glowstone_block outputItemChest -2012086 123 -1657308
+.trader add cleric_glowstone_block outputItemChest -2012086 123 -1657296
+.trader add cleric_glowstone_block outputItemChest -2012058 123 -1657322
+.trader add cleric_glowstone_block outputItemChest -2012058 123 -1657292
+.trader add cleric_glowstone_block outputItemChest -2012118 123 -1657298
+.trader add cleric_glowstone_block outputItemChest -2012118 123 -1657328
+.trader add cleric_glowstone_block outputItemChest -2012086 117 -1657331
+.trader add cleric_glowstone_block outputItemChest -2012091 117 -1657325
+.trader add cleric_glowstone_block outputItemChest -2012019 117 -1657314
+.trader add cleric_glowstone_block outputItemChest -2012086 117 -1657308
+.trader add cleric_glowstone_block outputItemChest -2012086 117 -1657296
+.trader add cleric_glowstone_block outputItemChest -2012058 117 -1657322
+.trader add cleric_glowstone_block outputItemChest -2012058 117 -1657292
+.trader add cleric_glowstone_block outputItemChest -2012118 117 -1657298
+.trader add cleric_glowstone_block outputItemChest -2012118 117 -1657328
+.trader add librarian_glass_block outputItemChest -2012086 135 -1657330
+.trader add librarian_glass_block outputItemChest -2012091 135 -1657324
+.trader add librarian_glass_block outputItemChest -2012019 135 -1657307
+.trader add librarian_glass_block outputItemChest -2012086 135 -1657295
+.trader add librarian_glass_block outputItemChest -2012086 135 -1657290
+.trader add librarian_glass_block outputItemChest -2012118 134 -1657292
+.trader add librarian_glass_block outputItemChest -2012118 134 -1657322
+.trader add librarian_glass_block outputItemChest -2012058 134 -1657328
+.trader add librarian_glass_block outputItemChest -2012058 134 -1657298
+.trader add librarian_glass_block outputItemChest -2012086 129 -1657330
+.trader add librarian_glass_block outputItemChest -2012091 129 -1657324
+.trader add librarian_glass_block outputItemChest -2012019 129 -1657307
+.trader add librarian_glass_block outputItemChest -2012086 129 -1657295
+.trader add librarian_glass_block outputItemChest -2012086 129 -1657290
+.trader add librarian_glass_block outputItemChest -2012118 129 -1657292
+.trader add librarian_glass_block outputItemChest -2012118 129 -1657322
+.trader add librarian_glass_block outputItemChest -2012058 129 -1657328
+.trader add librarian_glass_block outputItemChest -2012058 129 -1657298
+.trader add librarian_glass_block outputItemChest -2012086 123 -1657330
+.trader add librarian_glass_block outputItemChest -2012091 123 -1657324
+.trader add librarian_glass_block outputItemChest -2012019 123 -1657307
+.trader add librarian_glass_block outputItemChest -2012086 123 -1657295
+.trader add librarian_glass_block outputItemChest -2012086 123 -1657290
+.trader add librarian_glass_block outputItemChest -2012118 123 -1657292
+.trader add librarian_glass_block outputItemChest -2012118 123 -1657322
+.trader add librarian_glass_block outputItemChest -2012058 123 -1657328
+.trader add librarian_glass_block outputItemChest -2012058 123 -1657298
+.trader add librarian_glass_block outputItemChest -2012086 117 -1657330
+.trader add librarian_glass_block outputItemChest -2012091 117 -1657324
+.trader add librarian_glass_block outputItemChest -2012019 117 -1657307
+.trader add librarian_glass_block outputItemChest -2012086 117 -1657295
+.trader add librarian_glass_block outputItemChest -2012086 117 -1657290
+.trader add librarian_glass_block outputItemChest -2012118 117 -1657292
+.trader add librarian_glass_block outputItemChest -2012118 117 -1657322
+.trader add librarian_glass_block outputItemChest -2012058 117 -1657328
+.trader add librarian_glass_block outputItemChest -2012058 117 -1657298
+.trader add cleric_pearl outputItemChest -2012086 135 -1657319
+.trader add cleric_pearl outputItemChest -2012091 135 -1657301
+.trader add cleric_pearl outputItemChest -2012058 134 -1657316
+.trader add cleric_pearl outputItemChest -2012118 134 -1657304
+.trader add cleric_pearl outputItemChest -2012086 129 -1657319
+.trader add cleric_pearl outputItemChest -2012091 129 -1657301
+.trader add cleric_pearl outputItemChest -2012058 129 -1657316
+.trader add cleric_pearl outputItemChest -2012118 129 -1657304
+.trader add cleric_pearl outputItemChest -2012086 123 -1657319
+.trader add cleric_pearl outputItemChest -2012091 123 -1657301
+.trader add cleric_pearl outputItemChest -2012058 123 -1657316
+.trader add cleric_pearl outputItemChest -2012118 123 -1657304
+.trader add cleric_pearl outputItemChest -2012086 117 -1657319
+.trader add cleric_pearl outputItemChest -2012091 117 -1657301
+.trader add cleric_pearl outputItemChest -2012058 117 -1657316
+.trader add cleric_pearl outputItemChest -2012118 117 -1657304
+.trader add cleric_xp outputItemChest -2012086 135 -1657318
+.trader add cleric_xp outputItemChest -2012091 135 -1657300
+.trader add cleric_xp outputItemChest -2012058 134 -1657304
+.trader add cleric_xp outputItemChest -2012118 134 -1657316
+.trader add cleric_xp outputItemChest -2012086 129 -1657318
+.trader add cleric_xp outputItemChest -2012091 129 -1657300
+.trader add cleric_xp outputItemChest -2012058 129 -1657304
+.trader add cleric_xp outputItemChest -2012118 129 -1657316
+.trader add cleric_xp outputItemChest -2012086 123 -1657318
+.trader add cleric_xp outputItemChest -2012091 123 -1657300
+.trader add cleric_xp outputItemChest -2012058 123 -1657304
+.trader add cleric_xp outputItemChest -2012118 123 -1657316
+.trader add cleric_xp outputItemChest -2012086 117 -1657318
+.trader add cleric_xp outputItemChest -2012091 117 -1657300
+.trader add cleric_xp outputItemChest -2012058 117 -1657304
+.trader add cleric_xp outputItemChest -2012118 117 -1657316
+.trader add toolsmith_shovel outputItemChest -2012118 134 -1657310
+.trader add toolsmith_shovel outputItemChest -2012091 135 -1657313
+.trader add toolsmith_shovel outputItemChest -2012058 134 -1657310
+.trader add toolsmith_shovel outputItemChest -2012118 129 -1657310
+.trader add toolsmith_shovel outputItemChest -2012091 129 -1657313
+.trader add toolsmith_shovel outputItemChest -2012058 129 -1657310
+.trader add toolsmith_shovel outputItemChest -2012118 123 -1657310
+.trader add toolsmith_shovel outputItemChest -2012091 123 -1657313
+.trader add toolsmith_shovel outputItemChest -2012058 123 -1657310
+.trader add toolsmith_shovel outputItemChest -2012118 117 -1657310
+.trader add toolsmith_shovel outputItemChest -2012091 117 -1657313
+.trader add toolsmith_shovel outputItemChest -2012058 117 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012118 134 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012091 135 -1657313
+.trader add toolsmith_pickaxe outputItemChest -2012058 134 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012118 129 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012091 129 -1657313
+.trader add toolsmith_pickaxe outputItemChest -2012058 129 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012118 123 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012091 123 -1657313
+.trader add toolsmith_pickaxe outputItemChest -2012058 123 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012118 117 -1657310
+.trader add toolsmith_pickaxe outputItemChest -2012091 117 -1657313
+.trader add toolsmith_pickaxe outputItemChest -2012058 117 -1657310
+.trader add weaponsmith_axe outputItemChest -2012118 134 -1657310
+.trader add weaponsmith_axe outputItemChest -2012091 135 -1657313
+.trader add weaponsmith_axe outputItemChest -2012058 134 -1657310
+.trader add weaponsmith_axe outputItemChest -2012118 129 -1657310
+.trader add weaponsmith_axe outputItemChest -2012091 129 -1657313
+.trader add weaponsmith_axe outputItemChest -2012058 129 -1657310
+.trader add weaponsmith_axe outputItemChest -2012118 123 -1657310
+.trader add weaponsmith_axe outputItemChest -2012091 123 -1657313
+.trader add weaponsmith_axe outputItemChest -2012058 123 -1657310
+.trader add weaponsmith_axe outputItemChest -2012118 117 -1657310
+.trader add weaponsmith_axe outputItemChest -2012091 117 -1657313
+.trader add weaponsmith_axe outputItemChest -2012058 117 -1657310
+.trader add weaponsmith_sword outputItemChest -2012118 134 -1657310
+.trader add weaponsmith_sword outputItemChest -2012091 135 -1657313
+.trader add weaponsmith_sword outputItemChest -2012058 134 -1657310
+.trader add weaponsmith_sword outputItemChest -2012118 129 -1657310
+.trader add weaponsmith_sword outputItemChest -2012091 129 -1657313
+.trader add weaponsmith_sword outputItemChest -2012058 129 -1657310
+.trader add weaponsmith_sword outputItemChest -2012118 123 -1657310
+.trader add weaponsmith_sword outputItemChest -2012091 123 -1657313
+.trader add weaponsmith_sword outputItemChest -2012058 123 -1657310
+.trader add weaponsmith_sword outputItemChest -2012118 117 -1657310
+.trader add weaponsmith_sword outputItemChest -2012091 117 -1657313
+.trader add weaponsmith_sword outputItemChest -2012058 117 -1657310
+.trader add armorer_helmet outputItemChest -2012118 134 -1657310
+.trader add armorer_helmet outputItemChest -2012091 135 -1657313
+.trader add armorer_helmet outputItemChest -2012058 134 -1657310
+.trader add armorer_helmet outputItemChest -2012118 129 -1657310
+.trader add armorer_helmet outputItemChest -2012091 129 -1657313
+.trader add armorer_helmet outputItemChest -2012058 129 -1657310
+.trader add armorer_helmet outputItemChest -2012118 123 -1657310
+.trader add armorer_helmet outputItemChest -2012091 123 -1657313
+.trader add armorer_helmet outputItemChest -2012058 123 -1657310
+.trader add armorer_helmet outputItemChest -2012118 117 -1657310
+.trader add armorer_helmet outputItemChest -2012091 117 -1657313
+.trader add armorer_helmet outputItemChest -2012058 117 -1657310
+.trader add armorer_chestplate outputItemChest -2012118 134 -1657310
+.trader add armorer_chestplate outputItemChest -2012091 135 -1657313
+.trader add armorer_chestplate outputItemChest -2012058 134 -1657310
+.trader add armorer_chestplate outputItemChest -2012118 129 -1657310
+.trader add armorer_chestplate outputItemChest -2012091 129 -1657313
+.trader add armorer_chestplate outputItemChest -2012058 129 -1657310
+.trader add armorer_chestplate outputItemChest -2012118 123 -1657310
+.trader add armorer_chestplate outputItemChest -2012091 123 -1657313
+.trader add armorer_chestplate outputItemChest -2012058 123 -1657310
+.trader add armorer_chestplate outputItemChest -2012118 117 -1657310
+.trader add armorer_chestplate outputItemChest -2012091 117 -1657313
+.trader add armorer_chestplate outputItemChest -2012058 117 -1657310
+.trader add armorer_leggings outputItemChest -2012118 134 -1657310
+.trader add armorer_leggings outputItemChest -2012091 135 -1657313
+.trader add armorer_leggings outputItemChest -2012058 134 -1657310
+.trader add armorer_leggings outputItemChest -2012118 129 -1657310
+.trader add armorer_leggings outputItemChest -2012091 129 -1657313
+.trader add armorer_leggings outputItemChest -2012058 129 -1657310
+.trader add armorer_leggings outputItemChest -2012118 123 -1657310
+.trader add armorer_leggings outputItemChest -2012091 123 -1657313
+.trader add armorer_leggings outputItemChest -2012058 123 -1657310
+.trader add armorer_leggings outputItemChest -2012118 117 -1657310
+.trader add armorer_leggings outputItemChest -2012091 117 -1657313
+.trader add armorer_leggings outputItemChest -2012058 117 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_unbreaking_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_unbreaking_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_unbreaking_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_unbreaking_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_unbreaking_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_mending outputItemChest -2012118 134 -1657310
+.trader add librarian_mending outputItemChest -2012091 135 -1657313
+.trader add librarian_mending outputItemChest -2012058 134 -1657310
+.trader add librarian_mending outputItemChest -2012118 129 -1657310
+.trader add librarian_mending outputItemChest -2012091 129 -1657313
+.trader add librarian_mending outputItemChest -2012058 129 -1657310
+.trader add librarian_mending outputItemChest -2012118 123 -1657310
+.trader add librarian_mending outputItemChest -2012091 123 -1657313
+.trader add librarian_mending outputItemChest -2012058 123 -1657310
+.trader add librarian_mending outputItemChest -2012118 117 -1657310
+.trader add librarian_mending outputItemChest -2012091 117 -1657313
+.trader add librarian_mending outputItemChest -2012058 117 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012118 134 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012091 135 -1657313
+.trader add librarian_curse_of_vanishing outputItemChest -2012058 134 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012118 129 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012091 129 -1657313
+.trader add librarian_curse_of_vanishing outputItemChest -2012058 129 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012118 123 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012091 123 -1657313
+.trader add librarian_curse_of_vanishing outputItemChest -2012058 123 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012118 117 -1657310
+.trader add librarian_curse_of_vanishing outputItemChest -2012091 117 -1657313
+.trader add librarian_curse_of_vanishing outputItemChest -2012058 117 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012118 134 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012091 135 -1657313
+.trader add librarian_sharpness_5 outputItemChest -2012058 134 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012118 129 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012091 129 -1657313
+.trader add librarian_sharpness_5 outputItemChest -2012058 129 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012118 123 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012091 123 -1657313
+.trader add librarian_sharpness_5 outputItemChest -2012058 123 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012118 117 -1657310
+.trader add librarian_sharpness_5 outputItemChest -2012091 117 -1657313
+.trader add librarian_sharpness_5 outputItemChest -2012058 117 -1657310
+.trader add librarian_looting_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_looting_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_looting_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_looting_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_looting_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_looting_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_looting_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_looting_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_looting_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_looting_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_looting_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_looting_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_sweeping_edge_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_sweeping_edge_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_sweeping_edge_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_sweeping_edge_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_sweeping_edge_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012118 134 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012091 135 -1657313
+.trader add librarian_fire_aspect_2 outputItemChest -2012058 134 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012118 129 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012091 129 -1657313
+.trader add librarian_fire_aspect_2 outputItemChest -2012058 129 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012118 123 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012091 123 -1657313
+.trader add librarian_fire_aspect_2 outputItemChest -2012058 123 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012118 117 -1657310
+.trader add librarian_fire_aspect_2 outputItemChest -2012091 117 -1657313
+.trader add librarian_fire_aspect_2 outputItemChest -2012058 117 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012118 134 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012091 135 -1657313
+.trader add librarian_efficiency_5 outputItemChest -2012058 134 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012118 129 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012091 129 -1657313
+.trader add librarian_efficiency_5 outputItemChest -2012058 129 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012118 123 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012091 123 -1657313
+.trader add librarian_efficiency_5 outputItemChest -2012058 123 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012118 117 -1657310
+.trader add librarian_efficiency_5 outputItemChest -2012091 117 -1657313
+.trader add librarian_efficiency_5 outputItemChest -2012058 117 -1657310
+.trader add librarian_silk_touch outputItemChest -2012118 134 -1657310
+.trader add librarian_silk_touch outputItemChest -2012091 135 -1657313
+.trader add librarian_silk_touch outputItemChest -2012058 134 -1657310
+.trader add librarian_silk_touch outputItemChest -2012118 129 -1657310
+.trader add librarian_silk_touch outputItemChest -2012091 129 -1657313
+.trader add librarian_silk_touch outputItemChest -2012058 129 -1657310
+.trader add librarian_silk_touch outputItemChest -2012118 123 -1657310
+.trader add librarian_silk_touch outputItemChest -2012091 123 -1657313
+.trader add librarian_silk_touch outputItemChest -2012058 123 -1657310
+.trader add librarian_silk_touch outputItemChest -2012118 117 -1657310
+.trader add librarian_silk_touch outputItemChest -2012091 117 -1657313
+.trader add librarian_silk_touch outputItemChest -2012058 117 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_fortune_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_fortune_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_fortune_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_fortune_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_fortune_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_protection_4 outputItemChest -2012118 134 -1657310
+.trader add librarian_protection_4 outputItemChest -2012091 135 -1657313
+.trader add librarian_protection_4 outputItemChest -2012058 134 -1657310
+.trader add librarian_protection_4 outputItemChest -2012118 129 -1657310
+.trader add librarian_protection_4 outputItemChest -2012091 129 -1657313
+.trader add librarian_protection_4 outputItemChest -2012058 129 -1657310
+.trader add librarian_protection_4 outputItemChest -2012118 123 -1657310
+.trader add librarian_protection_4 outputItemChest -2012091 123 -1657313
+.trader add librarian_protection_4 outputItemChest -2012058 123 -1657310
+.trader add librarian_protection_4 outputItemChest -2012118 117 -1657310
+.trader add librarian_protection_4 outputItemChest -2012091 117 -1657313
+.trader add librarian_protection_4 outputItemChest -2012058 117 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012118 134 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012091 135 -1657313
+.trader add librarian_blast_protection_4 outputItemChest -2012058 134 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012118 129 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012091 129 -1657313
+.trader add librarian_blast_protection_4 outputItemChest -2012058 129 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012118 123 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012091 123 -1657313
+.trader add librarian_blast_protection_4 outputItemChest -2012058 123 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012118 117 -1657310
+.trader add librarian_blast_protection_4 outputItemChest -2012091 117 -1657313
+.trader add librarian_blast_protection_4 outputItemChest -2012058 117 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012118 134 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012091 135 -1657313
+.trader add librarian_aqua_affinity outputItemChest -2012058 134 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012118 129 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012091 129 -1657313
+.trader add librarian_aqua_affinity outputItemChest -2012058 129 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012118 123 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012091 123 -1657313
+.trader add librarian_aqua_affinity outputItemChest -2012058 123 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012118 117 -1657310
+.trader add librarian_aqua_affinity outputItemChest -2012091 117 -1657313
+.trader add librarian_aqua_affinity outputItemChest -2012058 117 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_respiration_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_respiration_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_respiration_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_respiration_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_respiration_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012118 134 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012091 135 -1657313
+.trader add librarian_depth_strider_3 outputItemChest -2012058 134 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012118 129 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012091 129 -1657313
+.trader add librarian_depth_strider_3 outputItemChest -2012058 129 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012118 123 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012091 123 -1657313
+.trader add librarian_depth_strider_3 outputItemChest -2012058 123 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012118 117 -1657310
+.trader add librarian_depth_strider_3 outputItemChest -2012091 117 -1657313
+.trader add librarian_depth_strider_3 outputItemChest -2012058 117 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012118 134 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012091 135 -1657313
+.trader add librarian_feather_falling_4 outputItemChest -2012058 134 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012118 129 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012091 129 -1657313
+.trader add librarian_feather_falling_4 outputItemChest -2012058 129 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012118 123 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012091 123 -1657313
+.trader add librarian_feather_falling_4 outputItemChest -2012058 123 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012118 117 -1657310
+.trader add librarian_feather_falling_4 outputItemChest -2012091 117 -1657313
+.trader add librarian_feather_falling_4 outputItemChest -2012058 117 -1657310
+.trader add librarian_density_5 outputItemChest -2012118 134 -1657310
+.trader add librarian_density_5 outputItemChest -2012091 135 -1657313
+.trader add librarian_density_5 outputItemChest -2012058 134 -1657310
+.trader add librarian_density_5 outputItemChest -2012118 129 -1657310
+.trader add librarian_density_5 outputItemChest -2012091 129 -1657313
+.trader add librarian_density_5 outputItemChest -2012058 129 -1657310
+.trader add librarian_density_5 outputItemChest -2012118 123 -1657310
+.trader add librarian_density_5 outputItemChest -2012091 123 -1657313
+.trader add librarian_density_5 outputItemChest -2012058 123 -1657310
+.trader add librarian_density_5 outputItemChest -2012118 117 -1657310
+.trader add librarian_density_5 outputItemChest -2012091 117 -1657313
+.trader add librarian_density_5 outputItemChest -2012058 117 -1657310
+.trader add farmer_golden_carrot outputItemChest -2012091 117 -1657289
+.metaTrader add bookshelf -2012088 135 -1657325
+.metaTrader add bookshelf -2012088 135 -1657319
+.metaTrader add bookshelf -2012088 135 -1657313
+.metaTrader add bookshelf -2012088 135 -1657307
+.metaTrader add bookshelf -2012088 135 -1657301
+.metaTrader add bookshelf -2012088 129 -1657295
+.metaTrader add bookshelf -2012088 129 -1657325
+.metaTrader add bookshelf -2012088 129 -1657319
+.metaTrader add bookshelf -2012088 129 -1657313
+.metaTrader add bookshelf -2012088 129 -1657307
+.metaTrader add bookshelf -2012088 129 -1657301
+.metaTrader add bookshelf -2012088 123 -1657325
+.metaTrader add bookshelf -2012088 123 -1657319
+.metaTrader add bookshelf -2012088 123 -1657313
+.metaTrader add bookshelf -2012088 123 -1657307
+.metaTrader add bookshelf -2012088 123 -1657301
+.metaTrader add bookshelf -2012088 123 -1657295
+.metaTrader add bookshelf -2012088 117 -1657325
+.metaTrader add bookshelf -2012088 117 -1657319
+.metaTrader add bookshelf -2012088 117 -1657313
+.metaTrader add bookshelf -2012088 117 -1657307
+.metaTrader add bookshelf -2012088 117 -1657301
+.metaTrader add bookshelf -2012088 117 -1657295
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012116 113 -1657292
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012116 114 -1657292
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012116 113 -1657294
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012116 114 -1657294
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 113 -1657324
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 114 -1657324
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 113 -1657323
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 114 -1657323
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 113 -1657291
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 114 -1657291
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 113 -1657390
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012093 114 -1657390
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657292
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657293
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657294
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657295
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657304
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657305
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657306
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657307
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657327
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657328
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657329
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012084 114 -1657330
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657328
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657327
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657326
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657325
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657301
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657300
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657399
+.metaTrader add stackableShulkingInputChest minecraft:glass -2012060 114 -1657398
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 113 -1657298
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 114 -1657298
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 113 -1657299
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 114 -1657299
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 113 -1657328
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 114 -1657328
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 113 -1657329
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012116 114 -1657329
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 113 -1657326
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 114 -1657326
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 113 -1657325
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 114 -1657325
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 113 -1657315
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 114 -1657315
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 113 -1657314
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012093 114 -1657314
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657296
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657297
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657298
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657299
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657308
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657309
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657310
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657311
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 113 -1657331
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657331
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 113 -1657332
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012084 114 -1657332
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657322
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657321
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657320
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657319
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657295
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657294
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657293
+.metaTrader add stackableShulkingInputChest minecraft:glowstone -2012060 114 -1657292
+.metaTrader add stackableShulkingInputChest minecraft:golden_carrot -2012093 113 -1657289
+.metaTrader add stackableShulkingInputChest minecraft:golden_carrot -2012093 114 -1657289
+.metaTrader add stackableShulkingInputChest minecraft:golden_carrot -2012093 113 -1657288
+.metaTrader add stackableShulkingInputChest minecraft:golden_carrot -2012093 114 -1657288
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012116 113 -1657316
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012116 114 -1657316
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012116 113 -1657317
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012116 114 -1657317
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012093 113 -1657300
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012093 114 -1657300
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012093 113 -1657299
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012093 114 -1657299
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012060 114 -1657307
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012060 114 -1657306
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012060 114 -1657305
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012060 114 -1657304
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012084 114 -1657315
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012084 114 -1657316
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012084 114 -1657317
+.metaTrader add stackableShulkingInputChest minecraft:experience_bottle -2012084 114 -1657318
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012116 113 -1657304
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012116 114 -1657304
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012116 113 -1657305
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012116 114 -1657305
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012093 113 -1657302
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012093 114 -1657302
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012093 113 -1657303
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012093 114 -1657303
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012084 114 -1657319
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012084 114 -1657320
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012084 114 -1657321
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012084 114 -1657322
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012060 114 -1657316
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012060 114 -1657315
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012060 114 -1657314
+.metaTrader add stackableShulkingInputChest minecraft:ender_pearl -2012060 114 -1657313
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book unbreaking 3 -2012081 110 -1657321
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book density 5 -2012079 109 -1657305
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book vanishing_curse 1 -2012081 110 -1657318
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book mending 1 -2012069 110 -1657321
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book efficiency 5 -2012069 110 -1657318
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book silk_touch 1 -2012063 110 -1657318
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book fire_aspect 2 -2012059 110 -1657318
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book protection 4 -2012056 110 -1657318
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book blast_protection 4 -2012057 110 -1657320
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book sharpness 5 -2012080 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book looting 3 -2012078 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book sweeping_edge 3 -2012076 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book knockback 2 -2012074 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book fortune 3 -2012072 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book aqua_affinity 1 -2012070 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book respiration 3 -2012068 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book depth_strider 3 -2012066 109 -1657307
+.metaTrader add outputShulkerLocationEnchantedBook minecraft:enchanted_book feather_falling 4 -2012064 109 -1657307
+.metaTrader add outputShulkerLocation minecraft:diamond_helmet -2012063 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_chestplate -2012065 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_leggings -2012067 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_boots -2012069 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_sword -2012071 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_shovel -2012073 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_axe -2012075 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:diamond_pickaxe -2012077 109 -1657305
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012061 113 -1657294
+.metaTrader add outputShulkerLocation minecraft:glass -2012061 113 -1657300
+.metaTrader add outputShulkerLocation minecraft:experience_bottle -2012061 113 -1657306
+.metaTrader add outputShulkerLocation minecraft:ender_pearl -2012061 113 -1657315
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012061 113 -1657321
+.metaTrader add outputShulkerLocation minecraft:glass -2012061 113 -1657327
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012083 113 -1657331
+.metaTrader add outputShulkerLocation minecraft:glass -2012083 113 -1657328
+.metaTrader add outputShulkerLocation minecraft:ender_pearl -2012083 113 -1657321
+.metaTrader add outputShulkerLocation minecraft:experience_bottle -2012083 113 -1657316
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012083 113 -1657310
+.metaTrader add outputShulkerLocation minecraft:glass -2012083 113 -1657304
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012083 113 -1657298
+.metaTrader add outputShulkerLocation minecraft:glass -2012083 113 -1657294
+.metaTrader add outputShulkerLocation minecraft:golden_carrot -2012094 113 -1657289
+.metaTrader add outputShulkerLocation minecraft:glass -2012094 113 -1657291
+.metaTrader add outputShulkerLocation minecraft:experience_bottle -2012094 113 -1657294
+.metaTrader add outputShulkerLocation minecraft:ender_pearl -2012094 113 -1657295
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012094 113 -1657315
+.metaTrader add outputShulkerLocation minecraft:glass -2012094 113 -1657324
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012094 113 -1657325
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012115 113 -1657328
+.metaTrader add outputShulkerLocation minecraft:glass -2012115 113 -1657322
+.metaTrader add outputShulkerLocation minecraft:experience_bottle -2012115 113 -1657316
+.metaTrader add outputShulkerLocation minecraft:ender_pearl -2012115 113 -1657304
+.metaTrader add outputShulkerLocation minecraft:glowstone -2012115 113 -1657298
+.metaTrader add outputShulkerLocation minecraft:glass -2012115 113 -1657292

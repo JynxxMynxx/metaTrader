@@ -1,0 +1,18 @@
+tested: .test raidStandalone on
+
+discord diagnostic:
+
+MetaTrader diagnostic session
+mode=raidStandalone
+2026-10-05T06:27:56.118829303Z event=raid values=[BOTTLE]
+2026-10-05T06:27:56.368167830Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:56.618663069Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:56.869149961Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:57.119692351Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:57.370140193Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:57.620651237Z tick mode=raidStandalone phase=TRADING pos=[-2011851, 63, -1657483]
+2026-10-05T06:27:57.721445988Z result=failed:r
+
+the result showed a failed bottle retrieval, however, the bot did successfully retrieve 1 bottle; I was able to verify by manually logging into the bot account, that it did not however end up in the player hotbar, but instead in the player inventory. we should probably update to version 1.0.11, in this update, we need to ensure that checks for successful retrieval of an item, anywhere they appear in the plugin, are successful whether an item enters the hotbar, or the inventory. obviously, where retrieved items need to be used, the bot will need to be able to move the item retrieved to the hotbar if it isnt already there. similar function should exist for say points in the script that call for an axe to be used, if one isnt in the hotbar, the bot needs to be able to switch an item in the hotbar, for the axe, if it is in the inventory, etc, for all functions that require an item to be used from the hotbar.
+
+this may not be the issue, obviously, consider the info in the diagnostic report when making an assessment for a fix.
